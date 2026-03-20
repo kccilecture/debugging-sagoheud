@@ -40,6 +40,9 @@ with open(sys.argv[1]) as f:
     # 화면 출력.
     print(f"Top 10 frequent words:")
 
+    # import pdb; pdb.set_trace()
+    # breakpoint()
+    
     for i in range(10):
         k = top_10[i][0]
         v = top_10[i][1]
